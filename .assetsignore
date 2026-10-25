@@ -1,0 +1,6 @@
+worker.js
+wrangler.toml
+README.txt
+README.md
+.git
+node_modules
