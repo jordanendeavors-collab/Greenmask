@@ -61,7 +61,7 @@ kbd{font:400 9px/1 var(--f-display);color:var(--muted);border:1px solid var(--li
 .slot.on{border-color:var(--mask);background:rgba(61,220,106,.14)}
 .slot.empty img{opacity:.3}
 
-.touch{display:none}
+.touch:not(body){display:none}
 body.touch .touch{display:block}
 .pad{position:fixed;bottom:calc(env(safe-area-inset-bottom,0px) + 12px);display:flex;gap:10px}
 .pad-l{left:calc(env(safe-area-inset-left,0px) + 12px)}
